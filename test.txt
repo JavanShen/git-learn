@@ -2,3 +2,5 @@ this is start
 第二个 zj
 新的分支 rj
 new thing
+apple
+banana
