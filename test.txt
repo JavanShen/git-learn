@@ -4,3 +4,4 @@ this is start
 new thing
 apple
 banana
+dog
