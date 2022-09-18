@@ -5,3 +5,4 @@ new thing
 apple
 banana
 dog
+cat
