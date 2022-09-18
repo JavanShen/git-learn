@@ -6,3 +6,4 @@ apple
 banana
 dog
 cat
+pear
