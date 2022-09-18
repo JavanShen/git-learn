@@ -4,7 +4,6 @@ this is start
 new thing
 apple
 banana
-dog
-cat
+sorry,no animal
 pear
 bird
