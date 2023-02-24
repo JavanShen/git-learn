@@ -13,3 +13,4 @@ this is more
 for
 new1
 new2
+v1.0.0
