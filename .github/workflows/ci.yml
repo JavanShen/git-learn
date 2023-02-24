@@ -8,5 +8,5 @@ jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout respository
-       uses: actions/checkout@v3
+      - name: Checkout respository
+        uses: actions/checkout@v3
