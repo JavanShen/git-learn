@@ -1,0 +1,12 @@
+name: CI
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Checkout respository
+       uses: actions/checkout@v3
