@@ -6,6 +6,8 @@ on:
     branches: 
       - main
       - develop
+    paths:
+      - 'ci.yml'
 jobs:
   CI:
     runs-on: ubuntu-latest
