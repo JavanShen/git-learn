@@ -6,9 +6,11 @@ on:
     branches: 
       - main
       - develop
+    paths:
+      - 'ci.yml'
 jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout respository
+      - name: Checkout respository one
         uses: actions/checkout@v3
