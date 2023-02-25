@@ -7,7 +7,7 @@ on:
       - main
       - develop
     paths:
-      - 'ci.yml'
+      - '.github/workflows/ci.yml'
 jobs:
   CI:
     runs-on: ubuntu-latest
