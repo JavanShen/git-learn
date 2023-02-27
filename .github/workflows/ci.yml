@@ -13,3 +13,6 @@ jobs:
     steps:
       - name: Checkout respository
         uses: actions/checkout@v3
+
+      - name: Git Demo
+        run: git branch
