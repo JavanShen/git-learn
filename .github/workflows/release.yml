@@ -1,11 +1,11 @@
 name: 'Create Releases'
 
 on:
-    push:
-        branches:
-          - main
-        tags:
-          - v1.*.*
+  push:
+      branches:
+        - main
+      tags:
+        - v1.*.*
 
 jobs:
     releases:
