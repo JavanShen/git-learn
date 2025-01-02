@@ -41,6 +41,8 @@ jobs:
             - name: Build Changelog
               id: github_release
               uses: mikepenz/release-changelog-builder-action@v5
+              with:
+                mode: HYBRID
 
             - name: Create Releases
               uses: softprops/action-gh-release@v2
