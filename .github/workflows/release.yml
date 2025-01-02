@@ -38,16 +38,9 @@ jobs:
             - name: Build
               run: pnpm run zip
 
-            - name: Build Changelog
-              id: github_release
-              uses: mikepenz/release-changelog-builder-action@v5
-              with:
-                mode: HYBRID
-
             - name: Create Releases
               uses: softprops/action-gh-release@v2
               with:
                 draft: true
-                body: ${{steps.github_release.outputs.changelog}}
                 generate_release_notes: true
                 files: demo.zip
