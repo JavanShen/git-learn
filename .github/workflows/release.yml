@@ -41,5 +41,5 @@ jobs:
             - name: Create Releases
               uses: softprops/action-gh-release@v2
               with:
-                body_path: CHANGELOG.md
+                generate_release_notes: true
                 files: demo.zip
